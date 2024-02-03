@@ -1,13 +1,13 @@
 import Login from "./Login"
-import Browse from "./Browse"
 import { Route, Routes } from "react-router-dom"
+import Browse from "./Browse"
 
 const Body = () => {
   return (
     <div>
       <Routes>
         <Route path = "/" element={<Login />} />
-        <Route path = "/browse" element={<Browse />} />
+        <Route path = "/browse" element={ <Browse /> } />
       </Routes>
     </div>
   )
