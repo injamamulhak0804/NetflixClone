@@ -43,7 +43,7 @@ const Header = () => {
         user && (
         <div>
           <span className='px-5 text-xl text-white font-bold'>
-            <img src={user?.photoURL} alt="" />
+            {/* <img className='w-4' src={user?.photoURL} alt="" /> */}
             <span>Hello</span>, {user?.displayName}👋🏻
           </span>
           <button

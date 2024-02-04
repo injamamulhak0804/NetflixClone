@@ -31,6 +31,15 @@
     - update the store
     - embedded the youtube video and make it auto play and mute
     - add tailwind classes to look awsome
+    - Build the Secondary component
+    - Add Movie List and Movie Card component
+    - Solving a reading map null by (movies?.map((movies)=>...))
+    - adding tailwindcss to Secondary container
+    - Making Dynamic movie list
+        - Popular Movies
+        - Upcoming Movies
+        - Trending Movies
+        - Now Playing Movies
 
 # Features
 
