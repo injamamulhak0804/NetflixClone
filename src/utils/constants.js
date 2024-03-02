@@ -8,4 +8,12 @@ export const API_OPTIONS = {
         Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMjFlMDkwMWNhNjYwZmRlN2E5NWVlNzU5NzY2MzdkNSIsInN1YiI6IjY1YmQwOGZmZjAzMTc0MDEzMDY2OGEzYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.s7Xd8x3szyc9T5Hbxw4VbjZHTsc3zlZVyYpf4dnGSsg'
     }
 };
-export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780"
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
+
+export const SUPPORTED_LANGUAGES = [
+    { identifier: "en", name: "English" },
+    { identifier: "tamil", name: "Tamil" },
+    { identifier: "hindi", name: "Hindi" },
+]
+
+export const API_KEY = "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"

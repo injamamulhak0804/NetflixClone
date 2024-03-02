@@ -18,7 +18,7 @@
     - Implement Sign out
     - Update Profile
     - BugFix: Sign up user displayName and profile picture update
-    - BugFix: if the user is not logged in Redirect /browse to Login page and vice-versa
+    - BugFix: if the user is not logged in Redirect /browse to Login page vice-versa
     - Unsubscribed to the onAutStateChanged callBack
     - hardcoded value in the constant files
     - Register TMDB API & create an app & get access token
@@ -40,6 +40,9 @@
         - Upcoming Movies
         - Trending Movies
         - Now Playing Movies
+    - Adding ChatGPT to the App.
+    - Create a GPT search feature
+    - Multi langauge feature Support
 
 # Features
 
