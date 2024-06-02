@@ -43,6 +43,7 @@
     - Adding ChatGPT to the App.
     - Create a GPT search feature
     - Multi langauge feature Support
+    - 
 
 # Features
 

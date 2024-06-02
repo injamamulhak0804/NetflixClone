@@ -10,10 +10,11 @@ export const API_OPTIONS = {
 };
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
 
-export const SUPPORTED_LANGUAGES = [
-    { identifier: "en", name: "English" },
-    { identifier: "tamil", name: "Tamil" },
-    { identifier: "hindi", name: "Hindi" },
+export const SUPPORT_LANGUAGES = [
+    { indentifier: "en", name: "English" },
+    { indentifier: "hindi", name: "Hindi" },
+    { indentifier: "spanish", name: "Spanish" },
+    { indentifier: "tamil", name: "Tamil" },
 ]
 
 export const API_KEY = "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"
