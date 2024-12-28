@@ -8,7 +8,7 @@ const VideoBackGround = ({movieId}) => {
 
   return (
     <div>
-      <iframe className="w-full h-full aspect-video "
+      <iframe className="w-full h-full mb-24 aspect-video"
       src={"https://www.youtube.com/embed/"+ trailer?.key+"?&autoplay=2&mute=2"} 
       title="YouTube video player" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media;

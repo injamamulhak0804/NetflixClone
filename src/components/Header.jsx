@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       <div className='absolute w-full z-30 bg-gradient-to-b from-black flex justify-between items-center px-5'>
-        <img className="w-36 lg:w-52"  src={LOGO}  alt="" />
+        <img onClick={handleGptSearchClick} className="w-36 cursor-pointer lg:w-52"  src={LOGO}  alt="" />
         <div className='flex items-center  gap-x-5'>
           {
             GptSearchBtn ? 

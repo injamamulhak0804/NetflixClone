@@ -7,8 +7,8 @@ const GptSearch = () => {
   return (
     <div>
         <img src={BG_LOGIN} className="absolute -z-20 w-full object-cover overflow-x-hidden h-screen" alt="" />
-        <GptSearchBar />
-        <GptMovieSuggestion />
+        <GptSearchBar /> 
+        <GptMovieSuggestion /> 
     </div>
   )
 }
